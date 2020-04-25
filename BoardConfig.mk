@@ -101,5 +101,7 @@ SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
 SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_AB := false
-SHRP_REC_TYPE := Non-Treble
+SHRP_REC_TYPE := SAR
 SHRP_DEVICE_TYPE := A-Only
+# SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
+SHRP_EXPRESS := true
